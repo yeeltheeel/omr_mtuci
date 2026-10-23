@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
 	android:orientation="vertical"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent">
+
+	<FrameLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1">
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:adjustViewBounds="true"
+			android:contentDescription="@string/no_connection"
+			android:src="@drawable/no_connection"
+			/>
+
+	</FrameLayout>
+
+	<com.google.android.material.button.MaterialButton
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="50dp"
+		android:paddingVertical="5dp"
+		android:paddingHorizontal="20dp"
+		android:layout_gravity="center_horizontal"
+		android:textColor="@color/lavender"
+		app:cornerRadius="35dp"
+		app:backgroundTint="@color/purple"
+		app:rippleColor="@color/lavender"
+		android:text="@string/retry"
+		/>
 
 </LinearLayout>

@@ -52,6 +52,7 @@ dependencies {
     implementation(libs.auth.kt)
     implementation(libs.ktor.client.android)
     implementation(libs.androidx.viewpager2)
+    implementation(libs.material)
 
     testImplementation(libs.junit)
     androidTestImplementation(platform(libs.androidx.compose.bom))

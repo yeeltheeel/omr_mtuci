@@ -7,5 +7,7 @@
     <string name="no_connection_comment">Check your connection and try again</string>
     <string name="username_prompt">username</string>
     <string name="some_image">some image</string>
+    <string name="app_description">Поможем найти твою следующую поездку</string>
+    <string name="retry">Повторить попытку</string>
     <!--    <string name=""></string>-->
 </resources>

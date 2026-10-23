@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<Toolbar
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="10dp">
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:text="@string/app_name"
+			android:textAlignment="center"
+			android:textSize="22sp"
+			/>
+    </Toolbar>
+
+	<ImageView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:src="@drawable/img_19199058_1"
+		android:scaleType="fitCenter"
+		android:adjustViewBounds="true"
+		android:contentDescription="@string/some_image"
+		/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:layout_marginVertical="5dp"
+		android:layout_marginHorizontal="10dp"
+		android:autofillHints="text"
+		android:hint="@string/username_prompt"
+        android:inputType="text"
+		/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginVertical="5dp"
+		android:layout_marginHorizontal="100dp"
+		android:text="@string/login"
+		/>
+
+</LinearLayout>

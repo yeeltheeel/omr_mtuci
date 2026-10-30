@@ -22,7 +22,8 @@
 
 	</FrameLayout>
 
-	<com.google.android.material.button.MaterialButton
+	<Button
+		android:id="@+id/btnRetry"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:layout_marginBottom="50dp"
@@ -30,9 +31,6 @@
 		android:paddingHorizontal="20dp"
 		android:layout_gravity="center_horizontal"
 		android:textColor="@color/lavender"
-		app:cornerRadius="35dp"
-		app:backgroundTint="@color/purple"
-		app:rippleColor="@color/lavender"
 		android:text="@string/retry"
 		/>
 

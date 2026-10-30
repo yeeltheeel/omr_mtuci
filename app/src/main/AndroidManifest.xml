@@ -14,17 +14,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MobileProject">
-        <activity
-            android:name=".MainActivity"
-            android:exported="true"
-            android:theme="@style/Theme.MobileProject"
-            android:windowSoftInputMode="adjustResize">
+
+        <activity android:name=".SplashActivity" android:exported="true"
+            android:theme="@style/Theme.MobileProject.Starting">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".NoInternetActivity" />
+        <activity android:name=".OnboardingActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity" />
+
     </application>
 
 </manifest>

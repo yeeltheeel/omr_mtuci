@@ -53,6 +53,7 @@ dependencies {
     implementation(libs.ktor.client.android)
     implementation(libs.androidx.viewpager2)
     implementation(libs.material)
+    implementation(libs.androidx.core.splashscreen)
 
     testImplementation(libs.junit)
     androidTestImplementation(platform(libs.androidx.compose.bom))
